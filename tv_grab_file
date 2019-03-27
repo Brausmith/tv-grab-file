@@ -6,6 +6,7 @@ if (( $# < 1 ))
 then
   wget -O /home/hts/.xmltv/tv_grab_file.gz "http://au.freepg.tv/xmltv/oztivo/QLD.Brisbane.gz?UID=C105B7EE&K=3365662B8BDDE0C600CE23BE2A63A0A5"
   gunzip -f /home/hts/.xmltv/tv_grab_file.gz /home/hts/.xmltv/tv_grab_file.xmltv
+  cat home/hts/.xmltv/tv_grab_file.xmltv
   exit 0
 fi
 
